@@ -1,0 +1,13 @@
+# project_smartbrain backend
+fastapi>=0.115
+uvicorn[standard]>=0.30
+sqlmodel>=0.0.22
+pydantic>=2.7
+python-dotenv>=1.0
+httpx>=0.27
+numpy>=1.26
+# LLM (vendored core reuses langchain-openai, same as bi-dashboard-demo)
+langchain-core>=0.3
+langchain-openai>=0.2
+# tests
+pytest>=8.0
